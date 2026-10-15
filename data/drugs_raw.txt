@@ -1,0 +1,299 @@
+1|Atorvastatin|Lipitor
+2|Levothyroxine|Synthroid, Levoxyl, Tirosint, Unithroid
+3|Metformin|Glucophage, Fortamet, Glumetza
+4|Amlodipine|Norvasc
+5|Lisinopril|Zestril, Prinivil
+6|Albuterol|Ventolin HFA, ProAir HFA, Proventil HFA
+7|Losartan|Cozaar
+8|Metoprolol tartrate / succinate|Lopressor / Toprol-XL
+9|Rosuvastatin|Crestor
+10|Omeprazole|Prilosec
+11|Gabapentin|Neurontin, Gralise
+12|Sertraline|Zoloft
+13|Escitalopram|Lexapro
+14|Semaglutide|Ozempic, Wegovy, Rybelsus
+15|Amphetamine/dextroamphetamine|Adderall
+16|Pantoprazole|Protonix
+17|Bupropion|Wellbutrin SR, Wellbutrin XL, Zyban, Aplenzin
+18|Hydrochlorothiazide|Microzide
+19|Fluoxetine|Prozac, Sarafem
+20|Trazodone|Desyrel, Oleptro
+21|Montelukast|Singulair
+22|Amoxicillin|Amoxil, Moxatag
+23|Fluticasone propionate|Flonase, Flovent HFA, ArmonAir Digihaler
+24|Tamsulosin|Flomax
+25|Apixaban|Eliquis
+26|Simvastatin|Zocor
+27|Insulin glargine|Lantus, Basaglar, Toujeo, Semglee
+28|Empagliflozin|Jardiance
+29|Furosemide|Lasix
+30|Meloxicam|Mobic
+31|Hydrocodone/acetaminophen|Norco, Vicodin, Lortab
+32|Tirzepatide|Mounjaro, Zepbound
+33|Methylphenidate|Ritalin, Concerta, Metadate CD, Daytrana
+34|Duloxetine|Cymbalta, Drizalma Sprinkle
+35|Prednisone|Rayos
+36|Carvedilol|Coreg, Coreg CR
+37|Famotidine|Pepcid
+38|Ibuprofen|Advil, Motrin
+39|Buspirone|BuSpar
+40|Venlafaxine|Effexor XR
+41|Tramadol|Ultram, ConZip
+42|Potassium chloride|Klor-Con, Micro-K, K-Tab
+43|Hydroxyzine|Atarax, Vistaril
+44|Allopurinol|Zyloprim, Aloprim
+45|Clopidogrel|Plavix
+46|Ergocalciferol (vitamin D2)|Drisdol
+47|Cetirizine|Zyrtec
+48|Ondansetron|Zofran, Zofran ODT
+49|Cyclobenzaprine|Flexeril, Amrix
+50|Spironolactone|Aldactone, CaroSpir
+51|Oxycodone|Roxicodone, OxyContin
+52|Estradiol|Estrace, Climara, Vivelle-Dot, Vagifem
+53|Aspirin|Bayer Aspirin, Ecotrin
+54|Glipizide|Glucotrol
+55|Zolpidem|Ambien, Ambien CR
+56|Lamotrigine|Lamictal
+57|Alprazolam|Xanax
+58|Citalopram|Celexa
+59|Pregabalin|Lyrica, Lyrica CR
+60|Cholecalciferol (vitamin D3)|Vitamin D3
+61|Clonazepam|Klonopin
+62|Azithromycin|Zithromax, Z-Pak, Zmax
+63|Pravastatin|Pravachol
+64|Valsartan|Diovan
+65|Ezetimibe|Zetia
+66|Diclofenac|Voltaren, Cataflam, Zipsor
+67|Insulin lispro|Humalog, Admelog, Lyumjev
+68|Norethindrone/ethinyl estradiol|Junel, Loestrin, Microgestin
+69|Propranolol|Inderal LA
+70|Latanoprost|Xalatan, Xelpros
+71|Atenolol|Tenormin
+72|Lisdexamfetamine|Vyvanse
+73|Doxycycline|Vibramycin, Doryx, Oracea
+74|Amoxicillin/clavulanate|Augmentin, Augmentin ES-600
+75|Dulaglutide|Trulicity
+76|Lisinopril/hydrochlorothiazide|Zestoretic, Prinzide
+77|Lorazepam|Ativan
+78|Fluticasone/salmeterol|Advair Diskus, Advair HFA, Wixela Inhub
+79|Insulin aspart|NovoLog, Fiasp
+80|Celecoxib|Celebrex, Elyxyb
+81|Finasteride|Proscar, Propecia
+82|Quetiapine|Seroquel
+83|Clonidine|Catapres, Kapvay
+84|Aripiprazole|Abilify, Abilify Maintena, Aristada
+85|Cephalexin|Keflex
+86|Alendronate|Fosamax, Binosto
+87|Topiramate|Topamax
+88|Tizanidine|Zanaflex
+89|Dapagliflozin|Farxiga
+90|Oxycodone/acetaminophen|Percocet
+91|Losartan/hydrochlorothiazide|Hyzaar
+92|Olmesartan|Benicar
+93|Testosterone|AndroGel, Xyosted
+94|Amitriptyline|Elavil
+95|Folic acid|Folvite
+96|Rivaroxaban|Xarelto
+97|Fenofibrate|Tricor, Trilipix
+98|Triamcinolone|Kenalog, Nasacort
+99|Paroxetine|Paxil, Brisdelle
+100|Ferrous sulfate|Feosol, Slow Fe
+101|Loratadine|Claritin, Alavert
+102|Warfarin|Coumadin, Jantoven
+103|Valacyclovir|Valtrex
+104|Budesonide/formoterol|Symbicort, Breyna
+105|Norgestimate/ethinyl estradiol|Sprintec, Ortho Tri-Cyclen, Tri-Sprintec
+106|Fluticasone/umeclidinium/vilanterol|Trelegy Ellipta
+107|Methocarbamol|Robaxin
+108|Acetaminophen|Tylenol
+109|Diltiazem|Cardizem, Cardizem CD, Tiazac, Cartia XT
+110|Desiccated thyroid|Armour Thyroid, NP Thyroid
+111|Baclofen|Lioresal
+112|Naproxen|Aleve, Naprosyn
+113|Sumatriptan|Imitrex
+114|Prednisolone|Orapred
+115|Esomeprazole|Nexium
+116|Mirtazapine|Remeron
+117|Levetiracetam|Keppra, Spritam
+118|Norethindrone|Aygestin, Camila, Errin
+119|Tadalafil|Cialis, Adcirca
+120|Nifedipine|Procardia XL, Adalat CC
+121|Progesterone|Prometrium, Endometrin
+122|Insulin degludec|Tresiba
+123|Cyanocobalamin (vitamin B12)|Nascobal
+124|Hydralazine|Apresoline
+125|Adalimumab|Humira
+126|Azelastine|Astelin, Astepro
+127|Sitagliptin|Januvia
+128|Glimepiride|Amaryl
+129|Chlorthalidone|Thalitone
+130|Oxybutynin|Ditropan XL, Oxytrol, Gelnique
+131|Pioglitazone|Actos
+132|Ketoconazole|Nizoral
+133|Irbesartan|Avapro
+134|Hydroxychloroquine|Plaquenil
+135|Sulfamethoxazole/trimethoprim|Bactrim, Bactrim DS, Septra
+136|Benzonatate|Tessalon Perles
+137|Insulin regular|Humulin R, Novolin R
+138|Dexmethylphenidate|Focalin
+139|Donepezil|Aricept, Aricept ODT
+140|Sacubitril/valsartan|Entresto
+141|Nitrofurantoin|Macrobid, Macrodantin
+142|Fluticasone furoate|Flonase Sensimist, Arnuity Ellipta
+143|Mupirocin|Bactroban, Centany
+144|Nebivolol|Bystolic
+145|Linaclotide|Linzess
+146|Methotrexate|Trexall
+147|Acyclovir|Zovirax
+148|Dextroamphetamine|Dexedrine, Zenzedi
+149|Valsartan/hydrochlorothiazide|Diovan HCT
+150|Ethinyl estradiol/drospirenone|Yaz, Yasmin, Nikki, Ocella
+151|Dexlansoprazole|Dexilant
+152|Dicyclomine|Bentyl
+153|Clobetasol|Clobex
+154|Insulin glulisine|Apidra
+155|Metronidazole|Flagyl, MetroGel, MetroCream, Nuvessa
+156|Prazosin|Minipress
+157|Ciprofloxacin|Cipro
+158|Sildenafil|Viagra, Revatio
+159|Levonorgestrel/ethinyl estradiol|Aviane, Alesse, Seasonique
+160|Evolocumab|Repatha
+161|Mesalamine|Lialda, Apriso, Pentasa, Asacol HD, Canasa
+162|Memantine|Namenda
+163|Etonogestrel/ethinyl estradiol|NuvaRing, EluRyng
+164|Diazepam|Valium, Diastat
+165|Lithium carbonate|Lithobid
+166|Nortriptyline|Pamelor
+167|Timolol|Timoptic
+168|Cefdinir|Omnicef
+169|Magnesium oxide|Mag-Ox
+170|Meclizine|Antivert, Bonine
+171|Cyclosporine|Restasis, Cequa, Sandimmune, Neoral
+172|Fluconazole|Diflucan
+173|Rimegepant|Nurtec ODT
+174|Tretinoin|Retin-A
+175|Levofloxacin|Levaquin
+176|Fluticasone/azelastine|Dymista
+177|Docusate sodium|Colace
+178|Polyethylene glycol 3350|MiraLAX, GlycoLax
+179|Olmesartan/hydrochlorothiazide|Benicar HCT
+180|Brexpiprazole|Rexulti
+181|Risperidone|Risperdal, Risperdal Consta, Perseris
+182|Solifenacin|Vesicare
+183|Methylprednisolone|Medrol, Medrol Dosepak, Depo-Medrol
+184|Insulin NPH|Humulin N, Novolin N
+185|Ubrogepant|Ubrelvy
+186|Empagliflozin/metformin|Synjardy
+187|Sitagliptin/metformin|Janumet
+188|Phentermine|Adipex-P, Lomaira
+189|Colchicine|Colcrys, Mitigare
+190|Doxazosin|Cardura
+191|Bimatoprost|Lumigan, Latisse
+192|Brimonidine|Alphagan P, Lumify
+193|Tiotropium|Spiriva HandiHaler, Spiriva Respimat
+194|Ipratropium|Atrovent HFA, Atrovent Nasal
+195|Ipratropium/albuterol|DuoNeb, Combivent Respimat
+196|Sucralfate|Carafate
+197|Lansoprazole|Prevacid
+198|Rabeprazole|AcipHex
+199|Eplerenone|Inspra
+200|Torsemide|Demadex
+201|Bumetanide|Bumex
+202|Metolazone|Zaroxolyn
+203|Isosorbide mononitrate|Imdur
+204|Isosorbide dinitrate|Isordil
+205|Nitroglycerin|Nitrostat, Nitro-Dur
+206|Ranolazine|Ranexa
+207|Digoxin|Lanoxin
+208|Amiodarone|Pacerone, Cordarone
+209|Flecainide|—
+210|Sotalol|Betapace
+211|Dronedarone|Multaq
+212|Amlodipine/benazepril|Lotrel
+213|Benazepril|Lotensin
+214|Ramipril|Altace
+215|Enalapril|Vasotec
+216|Candesartan|Atacand
+217|Telmisartan|Micardis
+218|Amlodipine/valsartan|Exforge
+219|Amlodipine/olmesartan|Azor
+220|Alirocumab|Praluent
+221|Icosapent ethyl|Vascepa
+222|Omega-3-acid ethyl esters|Lovaza
+223|Gemfibrozil|Lopid
+224|Colesevelam|Welchol
+225|Bempedoic acid|Nexletol
+226|Bempedoic acid/ezetimibe|Nexlizet
+227|Dabigatran|Pradaxa
+228|Edoxaban|Savaysa
+229|Enoxaparin|Lovenox
+230|Ticagrelor|Brilinta
+231|Prasugrel|Effient
+232|Cilostazol|Pletal
+233|Terbinafine|Lamisil
+234|Isotretinoin|Absorica, Claravis, Amnesteem, Zenatane
+235|Letrozole|Femara
+236|Anastrozole|Arimidex
+237|Tamoxifen|Nolvadex, Soltamox
+238|Exemestane|Aromasin
+239|Mycophenolate mofetil|CellCept
+240|Tacrolimus|Prograf, Astagraf XL
+241|Azathioprine|Imuran
+242|Leflunomide|Arava
+243|Sulfasalazine|Azulfidine
+244|Etanercept|Enbrel
+245|Secukinumab|Cosentyx
+246|Ustekinumab|Stelara
+247|Dupilumab|Dupixent
+248|Upadacitinib|Rinvoq
+249|Tofacitinib|Xeljanz
+250|Apremilast|Otezla
+251|Dexamethasone|Decadron
+252|Hydrocortisone|Cortef, Anusol-HC
+253|Budesonide|Pulmicort, Entocort EC, Uceris, Ortikos
+254|Beclomethasone|Qvar RediHaler
+255|Mometasone|Nasonex, Asmanex, Elocon
+256|Levalbuterol|Xopenex, Xopenex HFA
+257|Umeclidinium/vilanterol|Anoro Ellipta
+258|Tiotropium/olodaterol|Stiolto Respimat
+259|Glycopyrrolate/formoterol|Bevespi
+260|Budesonide/glycopyrrolate/formoterol|Breztri
+261|Roflumilast|Daliresp
+262|Fexofenadine|Allegra
+263|Levocetirizine|Xyzal
+264|Desloratadine|Clarinex
+265|Diphenhydramine|Benadryl
+266|Benzonatate|Tessalon
+267|Guaifenesin|Mucinex
+268|Guaifenesin/codeine|Robitussin AC
+269|Brompheniramine/pseudoephedrine/dextromethorphan|Bromfed DM
+270|Penicillin V potassium|Veetids
+271|Cefuroxime axetil|Ceftin
+272|Cefpodoxime|Vantin
+273|Cefixime|Suprax
+274|Clindamycin|Cleocin, Cleocin T, Clindagel
+275|Clarithromycin|Biaxin
+276|Erythromycin|Ery-Tab, Erythrocin
+277|Minocycline|Minocin, Solodyn, Ximino
+278|Linezolid|Zyvox
+279|Fosfomycin|Monurol
+280|Vancomycin|Vancocin, Firvanq
+281|Oseltamivir|Tamiflu
+282|Baloxavir marboxil|Xofluza
+283|Nirmatrelvir/ritonavir|Paxlovid
+284|Nystatin|Mycostatin, Nystop
+285|Clotrimazole|Lotrimin AF
+286|Ciclopirox|Penlac, Loprox
+287|Miconazole|Monistat, Micatin
+288|Olopatadine|Pataday, Patanol, Pazeo
+289|Dorzolamide/timolol|Cosopt, Cosopt PF
+290|Ciprofloxacin/dexamethasone|Ciprodex
+291|Neomycin/polymyxin B/dexamethasone|Maxitrol
+292|Phenazopyridine|Pyridium
+293|Lidocaine|Lidoderm, ZTlido, Xylocaine
+294|Indomethacin|Indocin, Tivorbex
+295|Nabumetone|Relafen
+296|Butalbital/acetaminophen/caffeine|Fioricet
+297|Guanfacine|Intuniv
+298|Liraglutide|Victoza, Saxenda
+299|Fluorouracil|Efudex, Carac

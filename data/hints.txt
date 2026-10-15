@@ -1,0 +1,296 @@
+1|Statin that lowers LDL cholesterol; can be dosed as high-intensity
+2|Replaces thyroid hormone (T4) in hypothyroidism
+3|First-line oral drug for type 2 diabetes; reduces liver glucose output
+4|Dihydropyridine calcium channel blocker for hypertension and angina
+5|ACE inhibitor for hypertension and heart failure; may cause a dry cough
+6|Short-acting beta-2 agonist "rescue" inhaler for asthma attacks
+7|First-in-class ARB for hypertension and diabetic kidney disease
+8|Beta-1 selective blocker for hypertension, angina and heart failure
+9|Potent statin that lowers LDL cholesterol; hydrophilic
+10|Proton pump inhibitor that cuts stomach acid for GERD and ulcers
+11|Anticonvulsant also used for nerve pain and postherpetic neuralgia
+12|SSRI antidepressant for depression, OCD, PTSD and panic disorder
+13|SSRI antidepressant for depression and generalized anxiety disorder
+14|Weekly GLP-1 agonist injection for type 2 diabetes and weight loss
+15|Mixed amphetamine salts stimulant for ADHD and narcolepsy
+16|Proton pump inhibitor for GERD and erosive esophagitis
+17|Antidepressant also used for smoking cessation; lowers seizure threshold
+18|Thiazide diuretic for hypertension and edema
+19|SSRI antidepressant with a very long half-life
+20|Sedating antidepressant often used off-label for insomnia
+21|Leukotriene receptor antagonist for asthma and allergies; boxed neuropsychiatric warning
+22|Penicillin-class antibiotic for ear, throat and sinus infections
+23|Corticosteroid nasal spray or inhaler for allergic rhinitis and asthma
+24|Alpha-1 blocker that relaxes the prostate to treat BPH
+25|Factor Xa inhibitor blood thinner for atrial fibrillation and DVT
+26|Statin whose dose is capped at 20 mg/day when used with amlodipine
+27|Long-acting basal insulin given once daily
+28|SGLT2 inhibitor for type 2 diabetes, heart failure and CKD
+29|Loop diuretic for edema and heart failure
+30|Once-daily NSAID for osteoarthritis and rheumatoid arthritis
+31|Opioid plus non-aspirin pain reliever combo for moderate to severe pain
+32|Dual GIP/GLP-1 agonist weekly injection for diabetes and weight loss
+33|CNS stimulant for ADHD; also comes in extended-release forms
+34|SNRI for depression, anxiety, neuropathic pain and fibromyalgia
+35|Oral corticosteroid that suppresses inflammation and immune activity
+36|Alpha/beta blocker for heart failure and hypertension; take with food
+37|H2 blocker that reduces stomach acid for heartburn
+38|OTC NSAID for pain, fever and inflammation
+39|Non-benzodiazepine anxiolytic with low dependence risk
+40|SNRI for depression and anxiety; can raise blood pressure
+41|Weak opioid that also blocks serotonin and norepinephrine reuptake
+42|Electrolyte supplement that treats or prevents low potassium
+43|Sedating antihistamine for itching and anxiety
+44|Xanthine oxidase inhibitor that lowers uric acid to prevent gout
+45|P2Y12 antiplatelet that prevents heart attack and stroke; CYP2C19 prodrug
+46|Vitamin D2 supplement for deficiency
+47|Second-generation antihistamine for allergies; mildly drowsy
+48|5-HT3 antagonist that prevents nausea and vomiting
+49|Muscle relaxant for short-term muscle spasm; structurally like a tricyclic
+50|Aldosterone antagonist diuretic for heart failure and resistant hypertension
+51|Opioid analgesic for moderate to severe pain
+52|Estrogen for menopausal symptoms
+53|Antiplatelet NSAID used for pain and heart attack prevention
+54|Sulfonylurea that stimulates insulin release; taken before meals
+55|"Z-drug" sedative-hypnotic for short-term insomnia
+56|Anticonvulsant and mood stabilizer; risk of a serious rash
+57|Short-acting benzodiazepine for anxiety and panic disorder
+58|SSRI antidepressant; QT prolongation at high doses
+59|Anticonvulsant for neuropathic pain and fibromyalgia; Schedule V
+61|Long-acting benzodiazepine for seizures and panic disorder
+62|Macrolide antibiotic given as a short 5-day course
+63|Hydrophilic statin with few CYP interactions
+64|ARB for hypertension and heart failure
+65|Blocks intestinal absorption of cholesterol
+66|NSAID for arthritis pain; also available as a topical gel
+67|Rapid-acting mealtime insulin
+68|Combined oral contraceptive with a progestin and estrogen
+69|Non-selective beta blocker for hypertension, tremor and migraine prevention
+70|Prostaglandin analog eye drop that lowers eye pressure in glaucoma
+71|Beta-1 selective blocker cleared by the kidneys
+72|Prodrug stimulant for ADHD and binge-eating disorder
+73|Tetracycline antibiotic for acne, respiratory infections and malaria prophylaxis
+74|Penicillin plus beta-lactamase inhibitor for resistant bacterial infections
+75|Once-weekly GLP-1 agonist pen for type 2 diabetes
+76|ACE inhibitor plus thiazide combination for hypertension
+77|Intermediate-acting benzodiazepine for anxiety and status epilepticus
+78|Inhaled steroid plus long-acting beta agonist for asthma and COPD
+79|Rapid-acting mealtime insulin analog
+80|COX-2 selective NSAID for arthritis; sulfonamide allergy caution
+81|5-alpha reductase inhibitor for BPH and male-pattern hair loss
+82|Sedating atypical antipsychotic for schizophrenia and bipolar disorder
+83|Alpha-2 agonist for hypertension and ADHD; rebound hypertension if stopped abruptly
+84|Atypical antipsychotic that acts as a partial dopamine agonist
+85|First-generation cephalosporin for skin and urinary infections
+86|Bisphosphonate for osteoporosis; take upright with a full glass of water
+87|Anticonvulsant also used for migraine prevention; may cause tingling and weight loss
+88|Alpha-2 agonist muscle relaxant for spasticity
+89|SGLT2 inhibitor for diabetes, heart failure and CKD
+90|Opioid plus non-aspirin pain reliever combination
+91|ARB plus thiazide diuretic combo; the ARB was the first of its class
+92|ARB for hypertension; name starts with "Olme-"
+93|Androgen replacement for low testosterone (hypogonadism)
+94|Tricyclic antidepressant, also used for neuropathic pain and migraine prevention
+95|B vitamin that prevents neural tube defects in pregnancy
+96|Once-daily Factor Xa inhibitor blood thinner; take with food
+97|Fibrate that lowers triglycerides
+98|Corticosteroid used as a joint injection, nasal spray and skin cream
+99|SSRI with the most anticholinergic effects; pregnancy caution
+100|Iron supplement for iron-deficiency anemia
+101|Non-drowsy OTC antihistamine
+102|Vitamin K antagonist blood thinner monitored with INR
+103|Antiviral for herpes and shingles; prodrug of an older antiviral
+104|Inhaled steroid plus fast-acting LABA for asthma and COPD
+105|Combined oral contraceptive, triphasic and monophasic versions
+106|Triple inhaler: steroid, LAMA and LABA for COPD
+107|Muscle relaxant for acute painful musculoskeletal conditions
+108|OTC pain and fever reducer; overdose damages the liver
+109|Non-dihydropyridine calcium channel blocker for hypertension, angina and rate control
+110|Natural thyroid extract derived from pig glands
+111|GABA-B agonist muscle relaxant for spasticity in MS
+112|NSAID for pain and inflammation, dosed twice daily; OTC version available
+113|Triptan for acute migraine attacks
+114|Oral liquid corticosteroid, the active form of a common steroid pill
+115|PPI that is the S-isomer of an older PPI
+116|Antidepressant that boosts appetite and sleep
+117|Anticonvulsant for partial and generalized seizures
+118|Progestin-only "mini-pill" contraceptive
+119|PDE5 inhibitor for ED, BPH and pulmonary arterial hypertension
+120|Extended-release dihydropyridine calcium channel blocker for hypertension and angina
+121|Hormone for pregnancy support and protecting the uterine lining
+122|Ultra-long-acting basal insulin
+123|Vitamin B12 for deficiency and pernicious anemia
+124|Direct vasodilator for hypertension and heart failure; can cause lupus-like syndrome
+125|TNF-alpha blocker pen for RA, Crohn's and psoriasis
+126|Antihistamine nasal spray and eye drop
+127|DPP-4 inhibitor for type 2 diabetes
+128|Once-daily sulfonylurea for type 2 diabetes
+129|Thiazide-like diuretic for hypertension
+130|Antimuscarinic for overactive bladder; also a patch and gel
+131|Thiazolidinedione that improves insulin sensitivity; avoid in heart failure
+132|Azole antifungal; oral form carries liver toxicity warnings
+133|ARB for hypertension and diabetic nephropathy
+134|Antimalarial also used in lupus and rheumatoid arthritis; eye exams needed
+135|Sulfa antibiotic combo for UTIs; the "DS" is double strength
+136|Non-narcotic cough suppressant capsule; swallow whole
+137|Short-acting human insulin
+138|Stimulant for ADHD; the d-isomer of a classic ADHD drug
+139|Cholinesterase inhibitor for Alzheimer's dementia
+140|Neprilysin inhibitor plus ARB for heart failure
+141|Antibiotic for uncomplicated urinary tract infections; avoid in poor renal function
+142|Steroid nasal spray and inhaler for allergies and asthma
+143|Topical antibiotic for impetigo and MRSA nasal decolonization
+144|Beta-1 selective blocker with nitric-oxide-mediated vasodilation
+145|Guanylate cyclase-C agonist for IBS with constipation
+146|Antimetabolite for RA, psoriasis and cancer; weekly dosing for arthritis
+147|Antiviral for herpes simplex and zoster
+148|Stimulant for ADHD and narcolepsy; the d-isomer of an amphetamine
+149|ARB plus thiazide combo; the ARB also treats heart failure
+150|Combined contraceptive with a unique progestin; also helps acne and PMDD
+151|Dual delayed-release PPI for GERD
+152|Antispasmodic anticholinergic for irritable bowel syndrome
+153|Super-high-potency topical corticosteroid
+154|Rapid-acting mealtime insulin analog
+155|Antibiotic and antiprotozoal for anaerobes, trichomoniasis and BV; avoid alcohol
+156|Alpha-1 blocker for hypertension, BPH and PTSD nightmares; first-dose syncope
+157|Fluoroquinolone antibiotic for UTIs and GI infections
+158|PDE5 inhibitor for erectile dysfunction and pulmonary hypertension
+159|Combined oral contraceptive; includes a version with a 91-day cycle
+160|PCSK9 inhibitor injection that lowers LDL
+161|Aminosalicylate for ulcerative colitis
+162|NMDA antagonist for moderate to severe Alzheimer's
+163|Monthly vaginal ring contraceptive
+164|Long-acting benzodiazepine for anxiety, seizures and alcohol withdrawal; also a rectal gel
+165|Mood stabilizer for bipolar disorder; narrow therapeutic window
+166|Tricyclic antidepressant, a secondary amine
+167|Beta-blocker eye drop for glaucoma
+168|Third-generation cephalosporin for ear and sinus infections; can turn stool red with iron
+169|Mineral supplement that also works as an antacid or laxative
+170|Antihistamine for vertigo and motion sickness
+171|Calcineurin inhibitor immunosuppressant; also used in dry-eye drops
+172|Antifungal for yeast infections; single dose treats vaginal candidiasis
+173|CGRP receptor antagonist that dissolves on the tongue for migraine
+174|Topical retinoid for acne and fine wrinkles
+175|Respiratory fluoroquinolone antibiotic; tendon rupture warning
+176|Steroid plus antihistamine nasal spray for allergic rhinitis
+177|Stool softener
+178|Osmotic laxative powder mixed into a drink
+179|ARB plus thiazide combo; the ARB's name starts with "Olme-"
+180|Atypical antipsychotic, also an add-on for depression
+181|Atypical antipsychotic for schizophrenia and bipolar; long-acting injections exist
+182|Antimuscarinic for overactive bladder
+183|Corticosteroid famously dispensed as a 6-day tapering pack
+184|Intermediate-acting cloudy insulin
+185|Oral CGRP antagonist taken at migraine onset
+186|SGLT2 inhibitor plus biguanide combination for type 2 diabetes
+187|DPP-4 inhibitor plus biguanide combination for type 2 diabetes
+188|Sympathomimetic appetite suppressant for short-term weight loss
+189|Anti-inflammatory for gout flares and familial Mediterranean fever
+190|Alpha-1 blocker for BPH and hypertension
+191|Prostaglandin analog for glaucoma that is also used to grow eyelashes
+192|Alpha-2 agonist eye drop for glaucoma and redness relief
+193|Long-acting antimuscarinic (LAMA) for COPD maintenance
+194|Short-acting anticholinergic bronchodilator
+195|Anticholinergic plus beta agonist bronchodilator combination
+196|Coats ulcers and protects the stomach lining; needs acid to work
+197|PPI for ulcers and GERD; ODT form available
+198|PPI for GERD; delayed-release tablet
+199|Selective aldosterone antagonist with fewer hormonal side effects
+200|Loop diuretic with better oral absorption than the classic one
+201|Very potent loop diuretic, dosed in single milligrams
+202|Thiazide-like diuretic that boosts loop diuretics
+203|Long-acting nitrate to prevent angina
+204|Nitrate for angina; paired with hydralazine for heart failure
+205|Sublingual vasodilator for acute chest pain
+206|Late sodium current inhibitor for chronic angina
+207|Cardiac glycoside for AFib rate control and heart failure; narrow therapeutic index
+208|Antiarrhythmic that can harm the thyroid, lungs and liver
+210|Beta blocker with class III antiarrhythmic activity
+211|Antiarrhythmic for AFib; contraindicated in severe heart failure
+212|Calcium channel blocker plus ACE inhibitor for hypertension
+213|ACE inhibitor for hypertension and heart failure
+214|ACE inhibitor that reduces cardiovascular events
+215|ACE inhibitor prodrug for hypertension and heart failure
+216|ARB for hypertension and heart failure
+217|ARB for hypertension and cardiovascular risk reduction
+218|Calcium channel blocker plus ARB for hypertension
+219|Calcium channel blocker plus ARB; the ARB name starts with "Olme-"
+220|PCSK9 inhibitor injection for high LDL
+221|Purified EPA omega-3 that lowers triglycerides and cardiovascular risk
+222|Omega-3 ethyl esters for severe high triglycerides
+223|Fibrate for high triglycerides; avoid combining with statins
+224|Bile acid sequestrant that lowers LDL and glucose
+225|Oral ACL inhibitor that lowers LDL in statin-intolerant patients
+226|Oral LDL-lowering combination of an ACL inhibitor and an absorption blocker
+227|Direct thrombin inhibitor blood thinner; capsule must stay in original bottle
+228|Once-daily Factor Xa inhibitor blood thinner
+229|Injectable low-molecular-weight heparin
+230|P2Y12 antiplatelet after acute coronary syndrome; twice daily
+231|P2Y12 antiplatelet for ACS with PCI; boxed bleeding warning
+232|PDE3 inhibitor for intermittent claudication; contraindicated in heart failure
+233|Antifungal for toenail onychomycosis and athlete's foot
+234|Severe nodular acne drug; teratogenic and managed by the iPLEDGE program
+235|Aromatase inhibitor for postmenopausal breast cancer
+236|Aromatase inhibitor for breast cancer; nonsteroidal
+237|SERM for breast cancer treatment and prevention
+238|Steroidal aromatase inactivator for breast cancer
+239|Immunosuppressant that prevents transplant rejection
+240|Calcineurin inhibitor to prevent organ transplant rejection
+241|Purine antimetabolite immunosuppressant; check TPMT
+242|DMARD for rheumatoid arthritis; teratogenic with a long washout
+243|Sulfa drug for ulcerative colitis and rheumatoid arthritis
+244|TNF blocker injection for RA and psoriatic arthritis; a fusion protein
+245|IL-17 antagonist for plaque psoriasis
+246|IL-12/23 inhibitor for psoriasis and Crohn's disease
+247|IL-4/IL-13 blocker for eczema and asthma
+248|JAK inhibitor for RA; boxed warning for infections and clots
+249|JAK inhibitor for RA and ulcerative colitis
+250|PDE4 inhibitor for psoriasis and psoriatic arthritis
+251|Potent long-acting corticosteroid
+252|Corticosteroid for adrenal insufficiency; topical form eases itch
+253|Corticosteroid for asthma and Crohn's disease; low systemic effects
+254|Inhaled corticosteroid for asthma maintenance
+255|Corticosteroid for nasal allergies, asthma and skin conditions
+256|R-isomer of a rescue inhaler drug with fewer jitters
+257|LAMA plus LABA inhaler for COPD
+258|LAMA plus LABA soft-mist inhaler for COPD
+259|LAMA plus LABA inhaler for COPD that comes as an HFA aerosol
+260|Triple inhaler for COPD with a steroid, LAMA and LABA
+261|PDE4 inhibitor that reduces COPD flare-ups
+262|Non-sedating antihistamine; avoid taking with fruit juice
+263|Second-generation antihistamine, the active enantiomer of a common one
+264|Non-drowsy antihistamine, the active metabolite of an OTC one
+265|Sedating first-generation antihistamine for allergies and sleep
+267|Expectorant that thins chest mucus
+268|Cough suppressant opioid plus expectorant syrup
+269|Antihistamine, decongestant and cough suppressant cold combo
+270|Oral penicillin for strep throat
+271|Second-generation cephalosporin for sinusitis and bronchitis
+272|Third-generation oral cephalosporin for respiratory infections
+273|Oral third-generation cephalosporin used for UTIs and gonorrhea
+274|Lincosamide for skin and anaerobic infections; C. difficile risk
+275|Macrolide used in H. pylori regimens; strong CYP3A4 inhibitor
+276|Macrolide antibiotic that also stimulates gut motility
+277|Tetracycline antibiotic for acne and rosacea
+278|Oxazolidinone for MRSA and VRE; can cause serotonin syndrome
+279|Single-dose sachet for uncomplicated UTI
+280|Glycopeptide antibiotic for MRSA when IV; oral for C. difficile
+281|Neuraminidase inhibitor for influenza
+282|Single-dose antiviral for influenza
+283|Paired protease inhibitors for COVID-19
+284|Antifungal for oral thrush and candida infections
+285|Topical antifungal for athlete's foot and jock itch
+286|Antifungal lacquer painted on infected nails
+287|Azole antifungal for vaginal yeast infections
+288|Antihistamine eye drops for allergic conjunctivitis
+289|Carbonic anhydrase inhibitor plus beta blocker eye drops for glaucoma
+290|Antibiotic plus steroid ear drops for ear infections with tubes
+291|Antibiotic plus steroid eye and ear drops
+292|Urinary analgesic that turns urine orange
+293|Local anesthetic; patch form treats nerve pain
+294|Potent NSAID for gout and PDA closure in neonates
+295|NSAID prodrug for osteoarthritis and rheumatoid arthritis
+296|Barbiturate combination for tension headaches
+297|Alpha-2 agonist, extended-release, for ADHD
+298|Daily GLP-1 injection for diabetes and weight loss
+299|Antimetabolite cream for actinic keratosis; IV form treats cancers
