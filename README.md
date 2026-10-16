@@ -1,38 +1,30 @@
-# RxCross
+# Mia Pretorius
 
-A daily 10x10 crossword for studying pharmacy brand names. Every answer is a U.S. brand
-name; every clue says what the drug does (class + use). Everyone gets the same puzzle on
-the same date, like Wordle.
-
-## Play
-
-No build step and no server needed. Open `index.html` in a browser, or serve the folder:
+Personal site. Static HTML, CSS and JS with no build step: open `index.html` or serve the folder.
 
     python3 -m http.server 8000     # then visit http://localhost:8000
 
-Puzzles are generated in the browser from the date (seeded), so there is nothing to
-schedule or maintain. `?date=YYYY-MM-DD` opens an earlier puzzle (the Archive button
-lists them). Progress, streaks and times are kept in `localStorage`.
+## Pages
 
-## Features
+- `/` (`index.html`, `landing.css`, `landing.js`) - the name buried under a pile of pills.
+  Move the pointer (or drag a finger) to shove them aside and uncover the name and the two links.
+- `/rxcross/` - RxCross, the daily brand-name drug crossword. See `rxcross/README.md`.
+- `/pharmacy/` - Night Shift, a top-down pixel-art pharmacy game.
 
-- Clues describe the drug's action/indication; **Generic hint** reveals part of the generic name
-- Check word / Check all, Reveal letter / word, Give up
-- Wordle-style shareable result, streaks, best time, past-puzzle archive
-- Study list after finishing: brand -> generic -> what it does
-- Keyboard (arrows, Tab/Enter, Space) and mobile friendly, light/dark theme
+## Night Shift
 
-## Data
+Mia runs a late-night apothecary. The camera stays locked on her while she walks the back of the shop.
 
-- `data/drugs_raw.txt` - generic/brand rows extracted from the study PDF (299 drugs)
-- `data/hints.txt` - one "what it does" hint per drug number (written for this project;
-  the PDF only lists names, so review them before relying on them clinically)
-- `python3 tools/build_data.py` regenerates `js/drugs.js` (424 brand words from 288 drugs).
-  Brands are used only if they are a single word once formulation suffixes (XL, HFA, ...)
-  are removed; hyphens are dropped (Klor-Con = KLORCON). Flecainide has no brand and is skipped.
+- Customers queue at the Rx drop-off. Walk up and press E for a first-person view of the counter:
+  move the mouse to look around, click the ID, the prescription, the computer (patient file and stock)
+  or the phone (calls the prescriber). Then fill it or refuse it.
+- Accepted scripts get compounded at the bench: watch the recipe of occult ingredients, repeat it,
+  then stop the grinding needle in the green. Hand the bag over at the pick-up bell.
+- Ingredients and pharmacy techs are bought at the back-office terminal. Techs compound on their own.
+- Each night is a level with an earnings goal. New paperwork tricks unlock as the nights go on
+  (expired IDs, wrong patient, unsigned and forged scripts, mismatched photos, allergies).
+  Three strikes closes the counter for the night.
 
-## Puzzle generator
-
-`js/puzzle.js` picks a seeded pool for the day and runs 250 greedy placement attempts,
-keeping the grid with the most words (about 22 words, roughly half the cells filled).
-A 365-day test produced valid, deterministic grids every time.
+Code lives in `pharmacy/js/`: `data.js` (map, ingredients, remedies, levels), `art.js` (all pixel art is
+drawn procedurally, there are no image files) and `game.js` (everything else). Progress is saved to
+`localStorage` at the end of each night.

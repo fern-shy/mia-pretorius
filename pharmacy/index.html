@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Night Shift</title>
+  <meta name="description" content="Night Shift: run a late-night apothecary as Mia. Check IDs, spot forged scripts and compound occult remedies.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' shape-rendering='crispEdges'%3E%3Crect width='16' height='16' fill='%23161a33'/%3E%3Crect x='4' y='3' width='8' height='6' fill='%23f2ecc7'/%3E%3Crect x='6' y='3' width='6' height='4' fill='%23161a33'/%3E%3Crect x='3' y='10' width='10' height='3' fill='%233fd17a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap">
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <canvas id="world" aria-label="Pharmacy shop floor"></canvas>
+
+  <!-- HUD -->
+  <div id="hud" class="hud" hidden>
+    <div class="hud-bar">
+      <span id="hudNight">Night 1</span>
+      <span id="hudClock">20:00</span>
+      <span id="hudGoal" title="Earned tonight / goal">$0 / $50</span>
+      <span id="hudBank">Bank $40</span>
+      <span id="hudStrikes" class="strikes" title="Strikes"></span>
+    </div>
+    <div id="hudOrders" class="orders" aria-live="polite"></div>
+  </div>
+  <div id="prompt" class="prompt" hidden><kbd>E</kbd> <span id="promptText"></span></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+
+  <!-- Title -->
+  <section id="title" class="screen" hidden>
+    <div class="card">
+      <p class="kicker">Mia's Apothecary</p>
+      <h1>Night Shift</h1>
+      <p class="lede">It's 8pm in Ravenhollow. The regular pharmacist called in cursed. You've got the keys.</p>
+      <div class="buttons">
+        <button type="button" id="btnContinue" class="primary" hidden>Continue</button>
+        <button type="button" id="btnNew">New game</button>
+      </div>
+      <ul class="controls">
+        <li><kbd>WASD</kbd>/<kbd>arrows</kbd> walk</li>
+        <li><kbd>E</kbd> interact</li>
+        <li><kbd>Esc</kbd> back or pause</li>
+      </ul>
+      <a class="home" href="../">&larr; Mia Pretorius</a>
+    </div>
+  </section>
+
+  <!-- Night intro -->
+  <section id="intro" class="screen" hidden>
+    <div class="card">
+      <h2 id="introTitle">Night 1</h2>
+      <ul id="introNotes" class="notes"></ul>
+      <p id="introGoal" class="goal"></p>
+      <div class="buttons"><button type="button" id="btnClockIn" class="primary">Clock in</button></div>
+    </div>
+  </section>
+
+  <!-- First-person counter view -->
+  <section id="pov" class="pov" hidden>
+    <canvas id="povCanvas" aria-label="Counter view: the customer, their ID, the prescription, the computer and the phone"></canvas>
+    <div id="povPanels" class="pov-panels"></div>
+    <div class="pov-bottom">
+      <p class="pov-tip">Move the mouse to look around. Click the ID, the script, the computer or the phone. <kbd>1</kbd>&ndash;<kbd>4</kbd> also work.</p>
+      <div id="dialogue" class="dialogue"><p id="dlgText"></p><span class="more" aria-hidden="true">&#9660;</span></div>
+      <div id="povActions" class="pov-actions">
+        <button type="button" id="btnFill" class="primary">Fill it <kbd>F</kbd></button>
+        <button type="button" id="btnRefuse" class="danger">Refuse <kbd>R</kbd></button>
+        <button type="button" id="btnAway">Step away <kbd>Esc</kbd></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compounding -->
+  <section id="mix" class="screen" hidden>
+    <div class="card wide">
+      <p class="kicker">Compounding</p>
+      <h2 id="mixTitle"></h2>
+      <p id="mixMsg" class="mix-msg"></p>
+      <div id="mixSeq" class="seq"></div>
+      <div id="mixJars" class="jars locked"></div>
+      <div id="mixGrind" class="grind" hidden>
+        <div class="bar"><div id="grindZone" class="zone"></div><div id="grindNeedle" class="needle"></div></div>
+        <button type="button" id="btnGrind" class="primary">Grind <kbd>Space</kbd></button>
+      </div>
+      <div class="buttons"><button type="button" id="mixCancel">Put it down <kbd>Esc</kbd></button></div>
+    </div>
+  </section>
+
+  <!-- Terminal -->
+  <section id="terminal" class="screen" hidden>
+    <div class="card wide terminal">
+      <p class="kicker">Back office</p>
+      <h2>Terminal</h2>
+      <p id="termBank" class="goal"></p>
+      <div class="tabs" role="tablist">
+        <button type="button" class="term-tab" role="tab" data-tab="supplies">Supplies</button>
+        <button type="button" class="term-tab" role="tab" data-tab="staff">Staff</button>
+      </div>
+      <div id="termBody" class="term-body"></div>
+      <div class="buttons"><button type="button" id="termClose">Log off <kbd>Esc</kbd></button></div>
+    </div>
+  </section>
+
+  <!-- End of night -->
+  <section id="dayEnd" class="screen" hidden>
+    <div class="card">
+      <h2 id="endTitle"></h2>
+      <div id="endBody"></div>
+      <div class="buttons"><button type="button" id="btnNext" class="primary">Next night</button></div>
+    </div>
+  </section>
+
+  <!-- Pause -->
+  <section id="paused" class="screen" hidden>
+    <div class="card">
+      <h2>Paused</h2>
+      <div class="buttons">
+        <button type="button" id="btnResume" class="primary">Resume</button>
+        <button type="button" id="btnQuit">Quit to title</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Touch controls -->
+  <div id="touch" class="touch" hidden>
+    <div class="dpad">
+      <button type="button" data-key="ArrowUp" class="up" aria-label="Up">&#9650;</button>
+      <button type="button" data-key="ArrowLeft" class="left" aria-label="Left">&#9664;</button>
+      <button type="button" data-key="ArrowRight" class="right" aria-label="Right">&#9654;</button>
+      <button type="button" data-key="ArrowDown" class="down" aria-label="Down">&#9660;</button>
+    </div>
+    <button type="button" id="touchAct" class="act" aria-label="Interact">A</button>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/art.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

@@ -3,91 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>RxCross - Daily Brand Name Crossword</title>
-  <meta name="description" content="A daily 10x10 crossword for pharmacy students. Fill the grid with brand names using clues about what each drug does.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' font-weight='700' text-anchor='middle' fill='white'%3ERx%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
+  <title>Mia Pretorius</title>
+  <meta name="description" content="Mia Pretorius. Pharmacy, puzzles and a pharmacy game.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cg transform='rotate(-35 32 32)'%3E%3Crect x='8' y='22' width='48' height='20' rx='10' fill='%23f2f0ea'/%3E%3Cpath d='M18 22h14v20H18a10 10 0 0 1 0-20z' fill='%23d6402b'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="landing.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <span class="logo" aria-hidden="true">Rx</span>
-      <div>
-        <h1>RxCross</h1>
-        <p class="tagline">Daily brand-name drug crossword</p>
-      </div>
-    </div>
-    <nav class="top-actions" aria-label="Game menu">
-      <button type="button" id="btnArchive" class="icon-btn" title="Past puzzles">Archive</button>
-      <button type="button" id="btnStats" class="icon-btn" title="Your stats">Stats</button>
-      <button type="button" id="btnHelp" class="icon-btn" title="How to play">Help</button>
+  <main class="stage">
+    <h1 class="name" id="name"><span>Mia</span> <span>Pretorius</span></h1>
+    <nav class="links" id="links" aria-label="Projects">
+      <a href="rxcross/">
+        <span class="link-title">RxCross</span>
+        <span class="link-sub">Daily brand-name crossword</span>
+      </a>
+      <a href="pharmacy/">
+        <span class="link-title">Night Shift</span>
+        <span class="link-sub">A pharmacy game</span>
+      </a>
     </nav>
-  </header>
-
-  <main class="game" id="game">
-    <section class="play">
-      <div class="meta">
-        <span id="puzzleLabel" class="puzzle-label"></span>
-        <span id="archiveNote" class="archive-note" hidden></span>
-        <span id="timer" class="timer" aria-label="Elapsed time">0:00</span>
-      </div>
-
-      <div id="clueBar" class="clue-bar" aria-live="polite">
-        <button type="button" id="prevClue" class="nav-btn" aria-label="Previous clue">&#8249;</button>
-        <div class="cb-main">
-          <div id="cbLabel" class="cb-label"></div>
-          <div id="cbHint" class="cb-hint"></div>
-          <div id="cbGeneric" class="cb-generic" hidden></div>
-        </div>
-        <button type="button" id="nextClue" class="nav-btn" aria-label="Next clue">&#8250;</button>
-      </div>
-
-      <div class="grid-wrap">
-        <div id="grid" class="grid" role="grid" aria-label="Crossword grid"></div>
-      </div>
-
-      <div class="toolbar" role="toolbar" aria-label="Helpers">
-        <button type="button" id="btnGeneric" title="Show part of the generic name">Generic hint</button>
-        <button type="button" id="btnCheckWord">Check word</button>
-        <button type="button" id="btnCheckAll">Check all</button>
-        <button type="button" id="btnRevealLetter">Reveal letter</button>
-        <button type="button" id="btnRevealWord">Reveal word</button>
-        <button type="button" id="btnGiveUp" class="danger">Give up</button>
-        <button type="button" id="btnStudy" hidden>Study list</button>
-      </div>
-      <p id="toast" class="toast" role="status" hidden></p>
-    </section>
-
-    <section class="clues" aria-label="Clues">
-      <div class="clue-col">
-        <h2>Across</h2>
-        <ol id="cluesAcross" class="clue-list"></ol>
-      </div>
-      <div class="clue-col">
-        <h2>Down</h2>
-        <ol id="cluesDown" class="clue-list"></ol>
-      </div>
-    </section>
   </main>
-
-  <footer class="foot">
-    For study use only, not medical advice. Answers are U.S. brand names from the study list
-    (some are historical). Hyphens and spaces are left out of answers.
-  </footer>
-
-  <input id="kbd" class="kbd" type="text" inputmode="text" autocomplete="off" autocorrect="off"
-         autocapitalize="characters" spellcheck="false" aria-label="Type your answer" value="_">
-
-  <dialog id="dlg" class="dlg" aria-labelledby="dlgTitle">
-    <div class="dlg-head">
-      <h2 id="dlgTitle"></h2>
-      <button type="button" id="dlgClose" class="icon-btn" aria-label="Close">&times;</button>
-    </div>
-    <div id="dlgBody" class="dlg-body"></div>
-  </dialog>
-
-  <script src="js/drugs.js"></script>
-  <script src="js/puzzle.js"></script>
-  <script src="js/app.js"></script>
+  <p class="hint" id="hint">Shuffle the pills</p>
+  <canvas id="pills" class="pills" aria-hidden="true"></canvas>
+  <script src="landing.js"></script>
 </body>
 </html>
